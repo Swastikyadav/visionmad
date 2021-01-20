@@ -1,5 +1,10 @@
 import React from "react"
+import ComingSoonPage from "./ComingSoonPage";
 
-export default function Home() {
-  return <div>Hello world!</div>
+import "../assets/stylesheets/index.css";
+
+function Home() {
+  return <ComingSoonPage />
 }
+
+export default Home;

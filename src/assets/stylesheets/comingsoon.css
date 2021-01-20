@@ -1,0 +1,65 @@
+.hero-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-top: 10%;
+}
+
+.hero-section h1 {
+  font-size: 38px;
+}
+
+.hero-section p {
+  font-size: 22px;
+}
+
+.hero-text-aside {
+  width: 40%;
+}
+
+.hero-text-aside input {
+  width: 90%;
+  height: 25px;
+  padding: 5px;
+  outline: none;
+  font-size: 15px;
+}
+
+.hero-text-aside .sub-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: 600;
+  background: #10347C;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+@media all and (max-width: 1000px) {
+  .hero-section {
+    display: block;
+    width: 100%;
+  }
+
+  .hero-text-aside {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .hero-media-aside {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .hero-media-aside iframe {
+    width: 100%;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .hero-media-aside iframe {
+    height: 200px;
+  }
+}
