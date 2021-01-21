@@ -1,0 +1,38 @@
+.secondary-heading {
+  font-size: 32px;
+  text-align: center;
+}
+
+.benefit-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10% 0;
+}
+
+.text-info, .illustrations {
+  width: 40%;
+}
+
+.text-info {
+  font-size: 22px;
+}
+
+.benefit-img {
+  width: 70%;
+}
+
+@media all and (max-width: 768px) {
+  .bs-1, .bs-3 {
+    display: block;
+  }
+
+  .bs-2, .bs-4 {
+    flex-direction: column-reverse;
+  }
+  
+  .text-info, .illustrations {
+    text-align: center;
+    width: 90%;
+  }
+}

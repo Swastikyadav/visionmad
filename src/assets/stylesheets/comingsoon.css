@@ -36,6 +36,14 @@
   cursor: pointer;
 }
 
+.core-benefits {
+  margin-top: 10%;
+}
+
+.mad-colors {
+  color: hotpink;
+}
+
 @media all and (max-width: 1000px) {
   .hero-section {
     display: block;
