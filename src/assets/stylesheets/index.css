@@ -10,3 +10,7 @@ body {
 .underline {
   border-bottom: 4px solid hotpink;
 }
+
+.active-link {
+  border-bottom: 2px solid hotpink;
+}
