@@ -10,7 +10,7 @@ import "../assets/stylesheets/headerdiv.css";
 function Header({ showModal }) {
   return (
     <>
-      <div className="header-div">
+      <header className="header-div">
         <img src={Logo} alt="visionmad-logo" width="60"/>
         <Breadcrumb className="breadcrumb">
           <Breadcrumb.Item>
@@ -20,7 +20,7 @@ function Header({ showModal }) {
         <span className="ham-burger">
           <AlignCenterOutlined onClick={showModal} />
         </span>
-      </div>
+      </header>
     </>
   );
 }

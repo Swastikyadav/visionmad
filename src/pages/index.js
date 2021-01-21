@@ -1,6 +1,7 @@
 import React, { useState } from "react"
 import Header from "../components/Header";
 import ComingSoonPage from "./ComingSoonPage";
+import Footer from "../components/Footer";
 import { BrowserRouter, NavLink } from "react-router-dom";
 import { Modal } from "antd";
 
@@ -34,6 +35,7 @@ function Home() {
             Home
           </NavLink>
         </Modal>
+        <Footer />
       </BrowserRouter>
     </>
   )

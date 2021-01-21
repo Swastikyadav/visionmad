@@ -1,0 +1,34 @@
+.footer {
+  background: #BDD8F1;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 50vh;
+  padding: 20px 3%;
+}
+
+.footer input {
+  width: 40%;
+  height: 30px;
+  padding: 17px;
+  outline: none;
+  font-size: 15px;
+}
+
+.footer .sub-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: 600;
+  background: #10347C;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+}
+
+@media all and (max-width: 768px) {
+  .footer input {
+    width: 90%;
+  }
+}
