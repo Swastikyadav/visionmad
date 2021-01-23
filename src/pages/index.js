@@ -1,7 +1,6 @@
 import React, { useState } from "react"
-import Header from "../components/Header";
 import ComingSoonPage from "./ComingSoonPage";
-import Footer from "../components/Footer";
+import Layout from "../components/layout";
 import { BrowserRouter, NavLink } from "react-router-dom";
 import { Modal } from "antd";
 
@@ -22,20 +21,20 @@ function Home() {
   return (
     <>
       <BrowserRouter>
-        <Header showModal={showModal} />
-        <ComingSoonPage />
+        <Layout showModal={showModal}>
+          <ComingSoonPage />
 
-        <Modal
-          visible={visible}
-          title="Navigation Links"
-          onCancel={handleCancel}
-          footer={[]}
-        >
-          <NavLink to="/" activeClassName="active-link" onClick={handleCancel}>
-            Home
-          </NavLink>
-        </Modal>
-        <Footer />
+          <Modal
+            visible={visible}
+            title="Navigation Links"
+            onCancel={handleCancel}
+            footer={[]}
+          >
+            <NavLink to="/" activeClassName="active-link" onClick={handleCancel}>
+              Home
+            </NavLink>
+          </Modal>
+        </Layout>
       </BrowserRouter>
     </>
   )
