@@ -13,8 +13,12 @@
   padding: 0 3%;
 }
 
+.header-div nav {
+  margin-left: 20px;
+}
+
 .breadcrumb .link {
-  margin: 0 20px;
+  margin-right: 0 10px;
   color: #000;
   text-decoration: none;
   font-size: 18px;
