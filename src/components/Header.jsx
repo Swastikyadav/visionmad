@@ -1,18 +1,20 @@
-import React from "react";
-import { Breadcrumb } from "antd";
+import React, { useState } from "react";
+import { Link } from "gatsby";
+import { Breadcrumb, Modal } from "antd";
 import { AlignCenterOutlined } from "@ant-design/icons";
-
-import { NavLink, useLocation } from "react-router-dom";
 
 import Logo from "../assets/media/logo.png";
 import "../assets/stylesheets/headerdiv.css";
 
-function Header({ showModal }) {
-  const location = useLocation();
+function Header() {
+  const [visible, setVisible] = useState(false);
 
-  const checkActive = () => {
-    const { pathname } = location;
-    return pathname === "/";
+  const handleCancel = () => {
+    setVisible(false);
+  }
+
+  const showModal = () => {
+    setVisible(true);
   }
 
   return (
@@ -22,10 +24,10 @@ function Header({ showModal }) {
         <nav>
           <Breadcrumb className="breadcrumb">
             <Breadcrumb.Item>
-              <NavLink className="link" activeClassName="active-link" isActive={checkActive} to="/">Home</NavLink>
+              <Link className="link" activeClassName="active-link" to="/">Home</Link>
             </Breadcrumb.Item>
             <Breadcrumb.Item>
-              <NavLink className="link" activeClassName="active-link" to="/blog">Blog</NavLink>
+              <Link className="link" activeClassName="active-link" partiallyActive={true} to="/blog">Blog</Link>
             </Breadcrumb.Item>
           </Breadcrumb>
         </nav>
@@ -33,6 +35,20 @@ function Header({ showModal }) {
           <AlignCenterOutlined onClick={showModal} />
         </span>
       </header>
+
+      <Modal
+        visible={visible}
+        title="Navigation Links"
+        onCancel={handleCancel}
+        footer={[]}
+      >
+        <Link to="/" activeClassName="active-link" onClick={handleCancel}>
+          Home
+        </Link><br /><br />
+        <Link to="/blog" activeClassName="active-link" partiallyActive={true} onClick={handleCancel}>
+          Blog
+        </Link>
+      </Modal>
     </>
   );
 }

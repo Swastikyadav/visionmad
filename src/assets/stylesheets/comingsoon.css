@@ -44,6 +44,10 @@
   color: hotpink;
 }
 
+.hero-media-aside iframe {
+  border: 1px solid rgb(163, 163, 163);
+}
+
 @media all and (max-width: 1000px) {
   .hero-section {
     display: block;
