@@ -14,6 +14,18 @@ module.exports = {
         path: `${__dirname}/src/content`,
       }
     },
-    `gatsby-transformer-remark`,
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-vscode`,
+            options: {
+              theme: `Abyss`,
+            }
+          }
+        ]
+      }
+    },
   ],
 }

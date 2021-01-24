@@ -17,6 +17,7 @@
     "@ant-design/icons": "^4.4.0",
     "antd": "^4.10.3",
     "gatsby": "^2.26.1",
+    "gatsby-remark-vscode": "^3.2.0",
     "gatsby-source-filesystem": "^2.10.0",
     "gatsby-transformer-remark": "^2.15.0",
     "react": "^16.12.0",

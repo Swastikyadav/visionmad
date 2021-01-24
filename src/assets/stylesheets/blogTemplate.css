@@ -6,3 +6,7 @@
   display: flex;
   justify-content: center;
 }
+
+.blog-post {
+  width: 100%;
+}
