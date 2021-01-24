@@ -14,6 +14,7 @@ module.exports = {
         path: `${__dirname}/src/content`,
       }
     },
+    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {
@@ -23,9 +24,15 @@ module.exports = {
             options: {
               theme: `Abyss`,
             }
-          }
-        ]
-      }
+          },
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 900,
+            },
+          },
+        ],
+      },
     },
   ],
 }

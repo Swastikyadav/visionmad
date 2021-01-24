@@ -3,6 +3,7 @@ slug: "/blog/my-first-blog"
 date: "2021-01-23"
 title: "Code and Syntax Highlighting with PrismJS"
 ---
+![Man Alone on the path](./tree.png)
 
 Code blocks are part of the Markdown spec, but syntax highlighting isn't.
 However, many renderers support syntax highlighting. In, we use 🤔.
