@@ -3,7 +3,7 @@ import CoreBenefits from "./coreBenefits/CoreBenefits";
 
 import "../assets/stylesheets/comingsoon.css";
 
-function ComingSoonPage() {
+function LandingPage() {
   return (
     <>
       <div className="hero-section">
@@ -30,4 +30,4 @@ function ComingSoonPage() {
   )
 }
 
-export default ComingSoonPage;
+export default LandingPage;

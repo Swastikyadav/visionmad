@@ -1,6 +1,6 @@
 import React from "react"
 
-import ComingSoonPage from "./ComingSoonPage";
+import LandingPage from "./LandingPage";
 import Layout from "../components/layout";
 
 import "antd/dist/antd.css";
@@ -9,7 +9,7 @@ import "../assets/stylesheets/index.css";
 function App() {
   return (
     <Layout>
-      <ComingSoonPage />
+      <LandingPage />
     </Layout>
   )
 }
