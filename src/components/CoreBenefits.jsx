@@ -1,10 +1,10 @@
 import React from "react";
 
-import OneStopGuide from "../../assets/media/onestopguide.svg";
-import SkillsThatMatter from "../../assets/media/skillsthatmatter.svg";
-import ProductMindset from "../../assets/media/productmindset.svg";
-import PaymentCard from "../../assets/media/paymentcard.svg";
-import "../../assets/stylesheets/corebenefits.css";
+import OneStopGuide from "../assets/media/onestopguide.svg";
+import SkillsThatMatter from "../assets/media/skillsthatmatter.svg";
+import ProductMindset from "../assets/media/productmindset.svg";
+import PaymentCard from "../assets/media/paymentcard.svg";
+import "../assets/stylesheets/corebenefits.css";
 
 function CoreBenefits() {
   return (

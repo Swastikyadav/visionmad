@@ -1,5 +1,5 @@
 import React from "react";
-import CoreBenefits from "./coreBenefits/CoreBenefits";
+import CoreBenefits from "./CoreBenefits";
 
 import "../assets/stylesheets/comingsoon.css";
 

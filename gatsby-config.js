@@ -11,7 +11,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `blog-pages`,
-        path: `${__dirname}/src/content`,
+        path: `${__dirname}/src/pages`,
       }
     },
     `gatsby-plugin-sharp`,
