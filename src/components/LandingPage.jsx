@@ -20,7 +20,6 @@ function LandingPage() {
           </div>
         </aside>
         <aside className="hero-media-aside">
-          {/* <iframe src="https://player.vimeo.com/video/502500087?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="640" height="360" frameBorder="0" allow="autoplay; fullscreen; picture-in-picture" allowFullScreen title="New Recording - 20/01/2021, 13:07:21"></iframe> */}
           <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/Hys4Y-IHSt8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="test-youtube-embed"></iframe>
         </aside>
       </div>
