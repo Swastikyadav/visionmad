@@ -11,10 +11,16 @@ export default function Template({ data }) {
 
   return (
     <Layout>
+      {console.log(frontmatter.type)}
       <div className="blog-post-container">
         <div className="blog-post">
           <h1>{frontmatter.title}</h1>
-          <span>{frontmatter.date}</span>
+          <small className="date">{frontmatter.date}</small>
+          {
+            frontmatter.type === "curriculum" ?
+            <p>{frontmatter.description}</p>:
+            null
+          }
           <div 
             className="blog-post-content"
             dangerouslySetInnerHTML={{ __html: html }}
@@ -35,6 +41,8 @@ query BlogPostBySlug($postSlug: String!)
         date(formatString: "MMMM DD, YYYY")
         slug
         title
+        description
+        type
       }
     }
   }

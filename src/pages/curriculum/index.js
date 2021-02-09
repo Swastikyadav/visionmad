@@ -17,10 +17,10 @@ export default function LearnWebDev({ data }) {
           Everything you need and nothing you don't.
         </p>
         <div className="thumbnails-div">
-          {data.allMarkdownRemark.edges.map((edge, idx) => {
+          {data.allMarkdownRemark.edges.map(edge => {
             return (
-              <Link to={edge.node.frontmatter.slug}>
-                <Img key={idx} fluid={edge.node.frontmatter.featuredImg.childImageSharp.fluid} className="thumbnail" alt="html-css-thumbnnail" />
+              <Link key={edge.node.frontmatter.slug} to={edge.node.frontmatter.slug}>
+                <Img fluid={edge.node.frontmatter.featuredImg.childImageSharp.fluid} className="thumbnail" alt="html-css-thumbnnail" />
               </Link>
             )
             })}
