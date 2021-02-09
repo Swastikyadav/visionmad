@@ -1,0 +1,47 @@
+.main-learn-page {
+  margin: 80px auto;
+  text-align: center;
+}
+
+.thumbnails-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.thumbnail {
+  width: 520px;
+}
+
+.learn-page-text {
+  font-size: 20px;
+  width: 60%;
+  margin: 50px auto;
+}
+
+@media all and (max-width: 1080px) {
+  .thumbnail {
+    width: 420px;
+  }
+}
+
+@media all and (max-width: 920px) {
+  .thumbnail {
+    width: 350px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .thumbnails-div {
+    display: block;
+  }
+
+  .thumbnail {
+    margin: 100px auto;
+    width: 100%;
+  }
+
+  .learn-page-text {
+    width: 90%;
+  }
+}
+

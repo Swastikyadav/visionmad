@@ -27,6 +27,9 @@ function Header() {
               <Link className="link" activeClassName="active-link" to="/">Home</Link>
             </Breadcrumb.Item>
             <Breadcrumb.Item>
+              <Link className="link" activeClassName="active-link" partiallyActive={true} to="/curriculum">Curriculum</Link>
+            </Breadcrumb.Item>
+            <Breadcrumb.Item>
               <Link className="link" activeClassName="active-link" partiallyActive={true} to="/blog">Blog</Link>
             </Breadcrumb.Item>
           </Breadcrumb>
@@ -45,6 +48,9 @@ function Header() {
         <Link to="/" activeClassName="active-link" onClick={handleCancel}>
           Home
         </Link><br /><br />
+        <Link to="/curriculum" activeClassName="active-link" partiallyActive={true} onClick={handleCancel}>
+          Curriculum
+        </Link><br/><br/>
         <Link to="/blog" activeClassName="active-link" partiallyActive={true} onClick={handleCancel}>
           Blog
         </Link>

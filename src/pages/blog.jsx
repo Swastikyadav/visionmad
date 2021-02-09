@@ -11,7 +11,6 @@ export default function BlogPage({ data }) {
 
   return (
     <Layout>
-      {console.log(edges)}
       <div className="blogs-list-page">
         <section className="blogs-header">
           <h1>VisionMad Web-Development Blogs</h1>

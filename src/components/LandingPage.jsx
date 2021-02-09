@@ -20,7 +20,7 @@ function LandingPage() {
           </div>
         </aside>
         <aside className="hero-media-aside">
-          <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/Hys4Y-IHSt8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="test-youtube-embed"></iframe>
+          <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/Hys4Y-IHSt8" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen title="test-youtube-embed"></iframe>
         </aside>
       </div>
       <div className="core-benefits">
