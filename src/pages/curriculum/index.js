@@ -1,6 +1,6 @@
 import React from "react";
 import Img from "gatsby-image";
-import { graphql } from "gatsby";
+import { Link, graphql } from "gatsby";
 
 import Layout from "../../components/layout";
 
@@ -18,8 +18,12 @@ export default function LearnWebDev({ data }) {
         </p>
         <div className="thumbnails-div">
           {data.allMarkdownRemark.edges.map((edge, idx) => {
-            return <Img key={idx} fluid={edge.node.frontmatter.featuredImg.childImageSharp.fluid} className="thumbnail" alt="html-css-thumbnnail" />
-          })}
+            return (
+              <Link to={edge.node.frontmatter.slug}>
+                <Img key={idx} fluid={edge.node.frontmatter.featuredImg.childImageSharp.fluid} className="thumbnail" alt="html-css-thumbnnail" />
+              </Link>
+            )
+            })}
         </div>
       </div>
     </Layout>
@@ -32,6 +36,7 @@ export const ThumbnailImage = graphql`
       edges {
         node {
           frontmatter {
+            slug
             featuredImg {
               childImageSharp {
                 fluid(maxWidth: 800) {

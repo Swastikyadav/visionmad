@@ -29,7 +29,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       component: blogPostTemplate,
       context: {
         // additional data can be passed via context
-        slug: node.frontmatter.slug,
+        postSlug: node.frontmatter.slug,
       },
     })
   })
