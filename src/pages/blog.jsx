@@ -18,7 +18,7 @@ export default function BlogPage({ data }) {
         </section>
         {edges.map(({node: {frontmatter: {slug, title, description}}}) => {
           return (    
-            <div className="blog-card">
+            <div key={slug} className="blog-card">
               <h2><Link to={slug}>{title}</Link></h2>
               <p>{description}</p>
             </div>
@@ -31,7 +31,7 @@ export default function BlogPage({ data }) {
 
 export const BlogListQuery = graphql`
   {
-    allMarkdownRemark {
+    allMarkdownRemark(filter: {frontmatter: {type: {eq: "blog"}}}) {
       edges {
         node {
           frontmatter {
