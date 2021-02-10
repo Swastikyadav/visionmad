@@ -21,6 +21,7 @@ module.exports = {
         path: `${__dirname}/src/assets/media/thumbnails`,
       }
     },
+    `gatsby-plugin-catch-links`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     {

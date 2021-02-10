@@ -2,14 +2,63 @@
 slug: "/curriculum/html-css"
 date: "2021-02-09"
 title: "HTML and CSS Curriculum"
-description: "Learn HTML and CSS"
+description: "Your web development journey starts with HTML and CSS. HTML is the structure of a web page and CSS is the styling and look of a web page. This course will guide you from beginners to advanced level of HTML and CSS. In the final project, you will build a real world website. Every module is built on top of the previous one so, we recommend following the steps below.
+"
 type: "curriculum"
 featuredImg: "../../../assets/media/thumbnails/html-css.png"
 ---
 
-Hello World!
+## 1. Introduction and Setup
+Introduction to web development. How web pages works and the role of HTML and CSS in building real world web sites. And setting your code editor to get started.
 
-<em><b>Testing</b></em>
-<div style="border: 1px solid black; display: flex">
-  <iframe style="width: 100%" title="unique" width="640" height="360" src="https://www.youtube-nocookie.com/embed/7WHDjZHEYMU" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-</div>
+- [Intro to web development and Enivronment Setup](/blog)
+- [What are HTML and CSS](/curriculum/html-css/environment-setup)
+- [Know your HTML - Common terms](/blog)
+- [HTML Document structure](/blog)
+- [Know your CSS - Common terms](/blog)
+- [CSS Selectors](/blog)
+- [Connecting HTML and CSS](/blog)
+- [CSS Resets](/blog)
+
+## 2. Semantic HTML Fundamentals
+Dive deep into common HTML terms learned in the last module. Semantic HTML is so important that we will cover it right from the beginning instead of introducing it somewhere at the end.
+
+- [What is semantic HTML](/blog)
+- [Block vs Inline element](/blog)
+- [Text based elements](/blog)
+- [Structure based elements](/blog)
+- [HyperLinks](/blog)
+
+## 3. Cascading Style Sheet Fundamentals
+CSS stands for Cascading Style Sheets.  Within CSS, all styles cascade from the top of a style sheet to the bottom, allowing different styles to be added or overwritten as the style sheet progresses.
+
+- [Cascade Specificity](/blog)
+- [Combination of selectors](/blog)
+- [Being modular with multiple classes](/blog)
+- [CSS colors property values](/blog)
+- [CSS measurements and units](/blog)
+
+## 4. The Box Model
+The Box Model is one of the most confusing concepts of HTML and CSS. But it won't be after this module. Box model is how elements are displayed on the web page, here you will also learn about inlie-block element.
+
+- [CSS display property and inline-block value](/blog)
+- [Understanding the Box Model](/blog)
+- [Width, Height and Inline Element](/blog)
+- [Margin, Padding and Inline Element](/blog)
+- [Borders and Border-Radius](/blog)
+- [Box sizing - Content Box, Padding Box, and Border Box](/blog)
+
+## 5. CSS Floats - The Legacy
+CSS Floats were designed to wrap text around an image, but developers started using it for positioning elements. Nowadays no one uses floats for positioning. But we will cover the original intent of CSS Floats and how developers hacked it for positioning.
+
+This module is optional. If you don't feel like learning legacy then skip this module.
+
+- [Wraping text around an image with Floats](/blog)
+- [Positioning with Floats](/blog)
+
+## 6. Crafting and Positioning modern Layouts
+As discussed in last module every element in HTML is a box. Hence in this module you will learn to position these boxes in any manner you want. This super power gives you ability to position content and elements on a page in nearly any imaginable way.
+
+- [Static, Relative, Absolute, and Fixed positioning](/blog)
+- [Crafting layouts with CSS FlexBox](/blog)
+- [Crafting layouts with CSS Grid](/blog)
