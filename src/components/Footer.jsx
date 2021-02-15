@@ -1,4 +1,5 @@
 import React from "react";
+import NewsLetterForm from "./NewsLetterForm";
 
 import "../assets/stylesheets/footer.css";
 
@@ -10,8 +11,7 @@ function Footer() {
         Learn web-development through weekly news letter content.
         Subscribe to be the first to know when we launch.
       </p>
-      <input type="email" name="email" placeholder="Email to get notified" />
-      <button className="sub-button">Notify Me</button>
+      <NewsLetterForm />
     </footer>
   );
 }

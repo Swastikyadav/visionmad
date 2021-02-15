@@ -1,5 +1,6 @@
 import React from "react";
 import CoreBenefits from "./CoreBenefits";
+import NewsLetterForm from "./NewsLetterForm";
 
 import "../assets/stylesheets/comingsoon.css";
 
@@ -15,8 +16,7 @@ function LandingPage() {
               Learn web-development through weekly news letter content.
               Subscribe to be the first to know when we launch.
             </p>
-            <input type="email" name="email" placeholder="Email to get notified" />
-            <button className="sub-button">Notify Me</button>
+            <NewsLetterForm />
           </div>
         </aside>
         <aside className="hero-media-aside">
