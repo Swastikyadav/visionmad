@@ -39,8 +39,8 @@ function NewsLetterForm() {
 
   return (
     <>
-      {status === 'SUCCESS' && <p className="nl-success">Success! Now check your email to confirm your subscription.</p>}
-      {status === 'ERROR' && <p className="nl-error">Oops, Something went wrong! try again.</p>}
+      {status === 'SUCCESS' && <small style={{color: "green"}}>Success! Now check your email to confirm your subscription.</small>}
+      {status === 'ERROR' && <p style={{color: "red"}}>Oops, Something went wrong! try again.</p>}
       <form
         action={FORM_URL}
         method="post"

@@ -57,8 +57,46 @@ This module is optional. If you don't feel like learning legacy then skip this m
 - [Positioning with Floats](/blog)
 
 ## 6. Crafting and Positioning modern Layouts
-As discussed in last module every element in HTML is a box. Hence in this module you will learn to position these boxes in any manner you want. This super power gives you ability to position content and elements on a page in nearly any imaginable way.
+As discussed in 4th module every element in HTML is a box. Hence in this module you will learn to position these boxes in any manner you want. This super power gives you ability to position content and elements on a page in nearly any imaginable way.
 
 - [Static, Relative, Absolute, and Fixed positioning](/blog)
 - [Crafting layouts with CSS FlexBox](/blog)
 - [Crafting layouts with CSS Grid](/blog)
+
+## 7. Web Typography
+Typography is the appearance of all the text on your web page. It is the artistic impression of how text looks, feels, and reads. In technical terms it is the size, color, weight, and style of the text.
+
+- [Font Properties](/blog)
+- [Text Properties](/blog)
+- [Web safe fonts and using custom web fonts](/blog)
+- [Citations and Quotes](/blog)
+
+## 8. Backgrounds, List, and Media
+Apply solid colors, an image, a gradient, or a combination of these on backgrounds.
+Create and style lists in your web page. Learn to handle all kind of media files.
+
+- [Setting Backgrounds and Gradients](/blog)
+- [Creating and styling lists](/blog)
+- [Working with different types of media files](/blog)
+
+## 9. Working with HTML Forms and HTML Tables
+Almost 95% of the internet consists of text and forms. Form allows you to acquire user's information and process requests.<br /><br />
+HTML Tables allows you to organize tabular data in a structured manner which is easier to read and digest for your users.
+
+- [Hanlde user input with Forms](/blog)
+- [Organize infromation with Tables](/blog)
+
+## 10. HTML / CSS final Projects
+You have learned a lot in last 9 modules. Let's put it all together in practice and build 3 real world websites.
+
+- [Project 1](/)
+- [Project 2](/)
+- [Project 3](/)
+
+<hr />
+
+Next we will start learning about **Version Control System** GIT and about a cloud based service to host your code - GitHub.
+
+If you believe that this HTML / CSS curriculum can help someone trying to learn these skills, then please do share it. Your support means a lot to us.
+
+THANK YOU!
