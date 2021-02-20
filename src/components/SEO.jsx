@@ -4,13 +4,12 @@ import { useStaticQuery, graphql } from "gatsby";
 
 export default function SEO({title, description}) {
   const { site } = useStaticQuery(query);
-  const { siteDescription, siteTitle, siteUrl } = site.siteMetadata;
+  const { siteDescription, siteTitle } = site.siteMetadata;
 
   return (
     <Helmet>
       <title>{title || siteTitle}</title>
       <meta name="description" content={description || siteDescription} />
-      <link rel="canonical" href={siteUrl} />
     </Helmet>
   )
 }
@@ -21,7 +20,6 @@ const query = graphql`
       siteMetadata {
         siteDescription
         siteTitle
-        siteUrl
       }
     }
   }
