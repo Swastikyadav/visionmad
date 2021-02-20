@@ -1,11 +1,26 @@
-/**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.com/docs/gatsby-config/
- */
+/*
+Handle netlify's multiple versions of the site.
+Treating the one on custom domain as real one.
+*/
+
+const {
+  NODE_ENV,
+  URL: NETLIFY_SITE_URL = 'https://visionmad.com/',
+  DEPLOY_PRIME_URL: NETLIFY_DEPLOY_URL = NETLIFY_SITE_URL,
+  CONTEXT: NETLIFY_ENV = NODE_ENV,
+} = process.env
+const isNetlifyProduction = NETLIFY_ENV === 'production'
+const siteUrl = isNetlifyProduction ? NETLIFY_SITE_URL : NETLIFY_DEPLOY_URL
 
 module.exports = {
   /* Your site config here */
+  siteMetadata: {
+    siteTitle: `VisionMad | Grow your freelancing business with SEO and Content marketing.`,
+    siteUrl,
+    siteDescription: `Grow your freelancing business with the power of SEO and Content marketing`,
+    siteLanguage: `en`,
+    author: `@codeSwastik`,
+  },
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
@@ -24,6 +39,9 @@ module.exports = {
     `gatsby-plugin-catch-links`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-advanced-sitemap`,
+    `gatsby-plugin-robots-txt`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {

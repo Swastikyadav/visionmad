@@ -2,7 +2,7 @@
 slug: "/blog/rails-with-react-tutorial"
 date: "2021-01-26"
 title: "3 ways to connect Rails with React: Tutorial"
-description: "Complete guide to connect rails with react using react-rails gem, build a monolithic web app with react and rails, and create a separate frontend react app and backend rails API."
+description: "Complete guide to connect rails with react using react-rails gem, build a monolithic web app, and create a separate react app and rails API."
 type: "blog"
 ---
 

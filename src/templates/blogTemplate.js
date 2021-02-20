@@ -2,6 +2,7 @@ import React from "react";
 import { graphql } from "gatsby";
 
 import Layout from "../components/layout";
+import SEO from "../components/SEO";
 
 import "../assets/stylesheets/blogTemplate.css";
 
@@ -11,6 +12,7 @@ export default function Template({ data }) {
 
   return (
     <Layout>
+      <SEO title={`VisionMad | ${frontmatter.title}`} description={frontmatter.description} />
       {console.log(frontmatter.type)}
       <div className="blog-post-container">
         <div className="blog-post">

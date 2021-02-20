@@ -1,7 +1,7 @@
 ---
 slug: "/curriculum/html-css"
 date: "2021-02-09"
-title: "HTML and CSS Curriculum"
+title: "The complete HTML and CSS Curriculum"
 description: "Your web development journey starts with HTML and CSS. HTML is the structure of a web page and CSS is the styling and look of a web page. This course will guide you from beginners to advanced level of HTML and CSS. In the final project, you will build a real world website. Every module is built on top of the previous one so, we recommend following the steps below.
 "
 type: "curriculum"

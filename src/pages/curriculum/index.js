@@ -3,6 +3,7 @@ import Img from "gatsby-image";
 import { Link, graphql } from "gatsby";
 
 import Layout from "../../components/layout";
+import SEO from "../../components/SEO";
 
 import "../../assets/stylesheets/curriculum.css";
 
@@ -10,6 +11,10 @@ import "../../assets/stylesheets/curriculum.css";
 export default function LearnWebDev({ data }) {
   return (
     <Layout>
+      <SEO
+        title="VisionMad | Full stack web development curriculum"
+        description="Learn full-stack web development at your own pace with our hands-on curriculum, step by step guide, and detailed screencasts."
+      />
       <div className="main-learn-page">
         <h1>Full stack web development curriculum.</h1>
         <p className="learn-page-text">
