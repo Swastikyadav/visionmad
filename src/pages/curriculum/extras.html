@@ -116,9 +116,9 @@ Before you start writing HTML it is important to understand the syntax and commo
 What is HTML?
 HTML stands for "HyperText Markup Language". It is the structure of a web page, it gives meaning to the content of a webpage. All the texts, forms, and multi-media on a webpage are defined by HTML with tags like heading, input, image, video, etc.
 HTML common terms.
-There are 3 terminologies which are the building block of HTML.
+There are 3 terminologies which are the building blocks of HTML.
 Elements
-The element defines the type of content. Whether it is a paragraph, a heading, an image, or a form. For example, we define paragraphs with `p` element, headings with `multiple levels of `h` element, links/anchor with `a` tag, and images with `img` element.
+The element defines the type of content. Whether it is a paragraph, a heading, an image, or a form. For example, we define paragraphs with `p` element, headings with `multiple levels of `h` element, links/anchor with `a` element, and images with `img` element.
 
 code example / image media
 Tags
@@ -134,11 +134,84 @@ An attribute provides additional value to the element. The most commonly used at
 
 code example / image media
 HTML document type structure.
+HTML documents are files with .html file extension. Here is an example of HTML file structure.
+
+code example of HTML:5 structure / An image media explaining the structure.
+
+<!DOCTYPE html> informs the web browser that we are using the latest version of HTML.
+<html> element is the beginning and </html> is the end of the structure.
+<head> element contains information about the page. Like title and metadata. Content of the <head> element is not visible on the webpage.
+<meta charset="utf-8"> specifies the character encoding of the page.
+Only content between the opening (<body>) and closing (</body>) body tag is visible on the webpage.
+Build the first page of your portfolio.
+Throughout this course, you will build your complete portfolio website. So, let's start by building the first page with some info about you.
+
+Code example
+
+This was all you needed to know about HTML for now, going further you will learn a lot more about HTML. Next, you will get to know your CSS and Common Terms used in CSS.
 
 
 
 ----------------------------------------------------------------
 ----------------------------------------------------------------
+
+
+
+KNOW YOUR CSS - COMMON TERMS
+After getting an idea of what HTML is, Now is the time to get familiar with the common terms used in CSS. In this lesson, you will learn what is CSS and what are the most commonly used terms in CSS.
+What is CSS?
+CSS stands for "Cascading Style Sheet". It handles the presentation and appearance of HTML elements on a webpage using fonts, colors, and positioning. Anything related to how an element should look and feel must be handled by CSS.
+CSS common terms.
+There are 3 terminologies which are the building blocks of CSS. When you need to apply styles on an HTML element think of it as a 3 step process.
+Select the element you want to style.
+Specify which property of that element you want to change.
+Specify the value of that property.
+Image media - Explaining these 3 step processes.
+Selectors
+Selectors specify which HTML element or elements need to be styled. You may want to increase the font size of all paragraph elements or you may just want to change the color of a specific paragraph element. Selectors help you select the element you want to target.
+
+code example / image media
+
+Common Selectors
+Type Selectors
+Class Selectors
+Id Selectors
+Properties
+This determines what property of the selected element needs to be changed. You may want to change the color, font-size, background, height, or weight of the paragraph element.
+
+Color, font-size, background, weight, and height are just a few properties to name.
+
+code example / Image media 
+Values
+This defines the value you want to set for the property of an element. For the color property, you can set the value to red, green, blue, or any other color.
+
+code example / image media
+
+Say you want to change the color of a paragraph element to red. Here paragraph element is the selector, color is the property, and red is the value of that property.
+Connecting HTML and CSS.
+How do you get your HTML and CSS to talk to each other? By referencing CSS in your HTML.
+
+HTML and CSS are separate technologies and they should remain that way. You should not write CSS in HTML and vice versa. The best practice is to reference the CSS file in the head of the HTML file with a link element.
+
+code example / image media
+Cross-browser compatibility with CSS Resets.
+Every web browser has its default settings for different elements. So, to ensure cross-browser compatibility (ensuring that your website looks the same on all browsers) CSS resets are widely used. It resets all the default browser settings to zero so that you can define your default styling for different elements.
+
+CSS reset code needs to be at the top of the CSS file due to cascading reasons. You will learn more about cascading.
+
+Eric Meyer's reset is one of the most popular CSS reset. Copy the provided CSS code from Eric Meyer's reset and paste (along with the credit to Eric Meyer) it at the top of your CSS file.
+
+code example
+
+You can also create a separate CSS file for resets and reference it in the head of your HTML before referencing other CSS files.
+
+code example
+Add CSS file to your portfolio project.
+
+
+
+=====================================================================
+
 
 
 
