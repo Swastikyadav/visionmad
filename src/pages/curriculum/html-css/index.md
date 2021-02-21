@@ -12,7 +12,7 @@ featuredImg: "../../../assets/media/thumbnails/html-css.png"
 Introduction to web development. How web pages works and the role of HTML and CSS in building real world web sites. And setting your code editor to get started.
 
 - [Intro to web development and Enivronment Setup](/blog)
-- [What are HTML and CSS](/curriculum/html-css/environment-setup)
+- [What are HTML and CSS](/curriculum/html-css/intro-to-web-development)
 - [Know your HTML - Common terms](/blog)
 - [HTML Document structure](/blog)
 - [Know your CSS - Common terms](/blog)
