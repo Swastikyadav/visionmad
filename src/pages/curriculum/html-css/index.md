@@ -11,13 +11,8 @@ featuredImg: "../../../assets/media/thumbnails/html-css.png"
 Introduction to web development. How web pages works and the role of HTML and CSS in building real world web sites. And setting your code editor to get started.
 
 - [Intro to web development and Enivronment Setup](/curriculum/html-css/intro-to-web-development)
-- [What are HTML and CSS]()
-- [Know your HTML - Common terms]()
-- [HTML Document structure]()
+- [Know your HTML - Common terms](/curriculum/html-css/know-your-html)
 - [Know your CSS - Common terms]()
-- [CSS Selectors]()
-- [Connecting HTML and CSS]()
-- [CSS Resets]()
 
 ## 2. Semantic HTML Fundamentals
 Dive deep into common HTML terms learned in the last module. Semantic HTML is so important that we will cover it right from the beginning instead of introducing it somewhere at the end.
