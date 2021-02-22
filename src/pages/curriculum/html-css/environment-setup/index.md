@@ -1,7 +1,7 @@
 ---
 slug: "/curriculum/html-css/intro-to-web-development"
 date: "2021-02-09"
-title: "Intro to HTML, CSS and evnironment setup"
+title: "Intro to web development and evnironment setup"
 description: "HTML and CSS are the fundamentals and building blocks of web development. And your journey to learn web development starts here."
 type: "lesson"
 ---
@@ -83,10 +83,10 @@ As web developers, we need to set up our environment before we can start buildin
 ### Code Editor
 Code editors are used for writing and structuring our code. Here are a few popular code editors.
 
-- Brackets
-- Atom
-- Sublime text
-- Visual Studio Code (Recommended)
+- [Brackets](http://brackets.io/)
+- [Atom](https://atom.io/)
+- [Sublime text](https://www.sublimetext.com/)
+- [Visual Studio Code (Recommended)](https://code.visualstudio.com/)
 
 I recommend you to use VS Code as it is used by the majority of professional developers. For your system-specific installation guide visit the official website of these code editors.
 
@@ -95,8 +95,8 @@ A web browser is simply an application to access the world wide web (The Interne
 
 The two most widely used web browsers by developers are:
 
-- Google Chrome
-- Mozilla Firefox
+- [Google Chrome](https://www.google.com/intl/en_in/chrome/)
+- [Mozilla Firefox](https://www.mozilla.org/en-US/firefox/new/)
 
 These two are the most modern browsers with a lot of features for web developers.
 
