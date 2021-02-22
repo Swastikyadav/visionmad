@@ -151,6 +151,19 @@ table {
 
 You can also create a separate CSS file for resets and reference it in the head of your HTML before referencing other CSS files.
 
+## Add CSS Reset to your portfolio project.
+In last lesson you build the first page of your portfolio. Now it is time for you to add CSS Reset.
+
+1. Create a new file under portfolio_project directory as resets.css and reference it in head of index.html.
+```css
+    <html>
+      <head>
+        <link rel="stylesheet" href="resets.css">
+      </head>
+    </html>
+```
+2. Copy Eric Meyer's reset code and paste in the resets.css file.
+
 <hr />
 
 This was all about CSS common terms. You should go through these lessons multiple times to understand it better.
