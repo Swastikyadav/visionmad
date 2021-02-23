@@ -17,7 +17,7 @@ Introduction to web development. How web pages works and the role of HTML and CS
 ## 2. Semantic HTML Fundamentals
 Dive deep into common HTML terms learned in the last module. Semantic HTML is so important that we will cover it right from the beginning instead of introducing it somewhere at the end.
 
-- [What is semantic HTML]()
+- [What is semantic HTML](/curriculum/html-css/semantic-html-fundamentals)
 - [Block vs Inline element]()
 - [Text based elements]()
 - [Structure based elements]()
