@@ -14,7 +14,7 @@ HTML stands for "HyperText Markup Language". It is the structure of a web page, 
 ## HTML Common Terms
 There are 3 terminologies which are the building blocks of HTML.
 
-![html common terms](../../../../assets/media/thumbnails/html-common-terms.png)
+![html common terms](./lesson-images/html-common-terms.png)
 
 ### Elements
 The element defines the type of content. Whether it is a paragraph, a heading, an image, or a form. For example, we define paragraphs with **p** element, headings with multiple levels of **h** element, links/anchor with **a** element, and images with **img** element.
@@ -77,7 +77,7 @@ portfolio_project
   </html>
 ```
 4. Now, add some info about yourself in the body with paragraph (**p**) tag. And open the index.html file in your web browser.
-![portfolio project](../../../../assets/media/thumbnails/portfolio_project-1.png)
+![portfolio project](./lesson-images/portfolio_project-1.png)
 
 Congrats, you just created your first webpage.
 

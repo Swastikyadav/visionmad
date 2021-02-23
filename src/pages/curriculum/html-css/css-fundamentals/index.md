@@ -14,7 +14,7 @@ CSS stands for "Cascading Style Sheet". It handles the presentation and appearan
 ## CSS common terms.
 There are 3 terminologies which are the building blocks of CSS. When you need to apply styles on an HTML element think of it as a 3 step process.
 
-![css common terms](../../../../assets/media/thumbnails/css-common-terms.png)
+![css common terms](./lesson-images/css-common-terms.png)
 
 1. Select the element you want to style.
 2. Specify which property of that element you want to change.

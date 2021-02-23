@@ -27,14 +27,14 @@ Web development is the process of building websites and webpages. And the profes
 ## What are websites and webpages?
 A website is a collection of different webpages under the same domain. For example, you are reading this lesson on a webpage under the domain of visionmad.com. Here visionmad.com is the website and visionmad.com/curriculum/html-css/intro-to-web-development is a webpage.
 
-![What are websites and webpages?](../../../../assets/media/thumbnails/web-pages.png)
+![What are websites and webpages?](./lesson-images/web-pages.png)
 
 ## Types of web development.
 There are 3 types of web development. Frontend development, Backend development, and Full-stack web development. Let's understand the role of each type of web development.
 
 ### What is frontend development?
 
-![Frontend development infographic](../../../../assets/media/thumbnails/frontend-infograph.png)
+![Frontend development infographic](./lesson-images/frontend-infograph.png)
 
 Frontend web development is what the final user sees. It is about the UI / UX of a webpage. Frontend developers are responsible for how a webpage looks and feel. They request CRUD operations and show it in an easy-to-understand format. The main job of the frontend development is to handle forms and inputs.
 
@@ -50,7 +50,7 @@ At this point you should not be concerned about the above technologies other tha
 
 ### What is backend development?
 
-![Backend development infographic](../../../../assets/media/thumbnails/backend-infograph.png)
+![Backend development infographic](./lesson-images/backend-infograph.png)
 
 Backend development is all about building APIs and managing CRUD (Create, Read, Update, Delete) operations. Backend development is responsible for creating, reading, updating, and deleting the records which will be consumed or used by the frontend.
 
@@ -64,7 +64,7 @@ These are just a few technologies to name. In our full-stack curriculum, we will
 
 ### What is full-stack web development?
 
-![Full-Stack development](../../../../assets/media/thumbnails/full-stack-development.png)
+![Full-Stack development](./lesson-images/full-stack-development.png)
 
 Frontend development + Backend development = FullSstack development.
 
