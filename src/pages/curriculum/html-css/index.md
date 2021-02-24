@@ -19,7 +19,7 @@ Dive deep into common HTML terms learned in the last module. Semantic HTML is so
 
 - [What is semantic text and structure based HTML](/curriculum/html-css/semantic-html-fundamentals)
 - [Block vs Inline element](/curriculum/html-css/block-vs-inline-element)
-- [Working with HyperLinks]()
+- [Working with HyperLinks](/curriculum/html-css/hyperlinks)
 
 ## 3. Cascading Style Sheet Fundamentals
 CSS stands for Cascading Style Sheets.  Within CSS, all styles cascade from the top of a style sheet to the bottom, allowing different styles to be added or overwritten as the style sheet progresses.

@@ -15,6 +15,7 @@ export default function Template({ data }) {
       <SEO title={`VisionMad | ${frontmatter.title}`} description={frontmatter.description} />
       {console.log(frontmatter.type)}
       <div className="blog-post-container">
+        <div id="top-heading"></div>
         <div className="blog-post">
           <h1>{frontmatter.title}</h1>
           <small className="date">{frontmatter.date}</small>
