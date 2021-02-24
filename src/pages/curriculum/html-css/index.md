@@ -17,11 +17,9 @@ Introduction to web development. How web pages works and the role of HTML and CS
 ## 2. Semantic HTML Fundamentals
 Dive deep into common HTML terms learned in the last module. Semantic HTML is so important that we will cover it right from the beginning instead of introducing it somewhere at the end.
 
-- [What is semantic HTML](/curriculum/html-css/semantic-html-fundamentals)
-- [Block vs Inline element]()
-- [Text based elements]()
-- [Structure based elements]()
-- [HyperLinks]()
+- [What is semantic text and structure based HTML](/curriculum/html-css/semantic-html-fundamentals)
+- [Block vs Inline element](/curriculum/html-css/block-vs-inline-element)
+- [Working with HyperLinks]()
 
 ## 3. Cascading Style Sheet Fundamentals
 CSS stands for Cascading Style Sheets.  Within CSS, all styles cascade from the top of a style sheet to the bottom, allowing different styles to be added or overwritten as the style sheet progresses.
