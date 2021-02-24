@@ -104,6 +104,8 @@ This is wrong.
 </span>
 ```
 
+There is only one exception to this rule. Anchor (```<a>```) which is an inline element is allowed to wrap block elements. Because you may want to add a hyperlink to a block element. 
+
 Now go and identify in your portfolio project which elements are block level and which are inline level.
 
 <hr />
