@@ -65,6 +65,58 @@ Let's build a back to top button to see this in action.
 ```
 [Back to top](#top-heading)
 
+## Add hyperlinks to your portfolio project.
+After learning about hyperlinks, now is the time to actually add it to your portfolio project.
+
+1. Create two files in root of protfolio_project by the name of **```blog.html```** and **```projects.html```**.
+
+blog.html
+```html
+<h1>All my blogs</h1>
+
+<ul>
+  <li>How I learned programming?</li>
+  <li>My plans for the year 2021.</li>
+  <li>Freedom, Value, and Wealth. My learnings from $100 startup book</li>
+</ul>
+```
+
+projects.html | Add absolute links to projects which opens in a new window.
+```html
+<h1>List of projects I have built</h1>
+
+<ul>
+  <li>
+    <a href="https://swastikyadav.github.io/paradigm-shift/" target="_blank">Paradigm Shift - HTML CSS project</a>
+  </li>
+  <li>
+    <a href="https://swastikyadav.github.io/threshold/index.html" target="_blank">Threshold - HTML CSS project</a>
+  </li>
+  <li>
+    <a href="https://swastikyadav.github.io/flexbox-project-2/index.html" target="_blank">Prism - Flexbox Project</a>
+  </li>
+</ul>
+```
+
+2. Add relative link to those files in nav element.
+```html
+<nav>
+  <a href="./blog.html">Blog</a>
+  <a href="./projects.html">projects</a>
+  <a href="/">resume</a>
+</nav>
+```
+
+Here is a live demo
+<iframe src="https://codesandbox.io/embed/visionmad-portfolio-project-2-qwv48?fontsize=14&hidenavigation=1&theme=dark"
+  style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
+  title="VisionMad - Portfolio Project 2"
+  allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+  sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+></iframe>
+
+Try clicking on navigation links.
+
 <hr />
 
 In this lesson you learned about hyperlinks, their types, email links, target attributes, and you also built a back to top link. Take your time to revise these topics again.
