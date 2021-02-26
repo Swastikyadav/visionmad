@@ -24,7 +24,7 @@ Dive deep into common HTML terms learned in the last module. Semantic HTML is so
 ## 3. Cascading Style Sheet Fundamentals
 CSS stands for Cascading Style Sheets.  Within CSS, all styles cascade from the top of a style sheet to the bottom, allowing different styles to be added or overwritten as the style sheet progresses.
 
-- [Cascade Specificity]()
+- [Cascade Specificity](/curriculum/html-css/cascade-specificity)
 - [Combination of selectors]()
 - [Being modular with multiple classes]()
 - [CSS colors property values]()
