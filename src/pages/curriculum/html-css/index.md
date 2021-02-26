@@ -2,7 +2,7 @@
 slug: "/curriculum/html-css"
 date: "2021-02-09"
 title: "The complete HTML and CSS Curriculum"
-description: "Your web development journey starts with HTML and CSS. This course will guide you from beginners to advanced level of HTML and CSS. In the final project, you will build a real world website."
+description: "Your web development journey starts with HTML and CSS. This course will guide you from beginners to advanced level of HTML and CSS."
 type: "curriculum"
 featuredImg: "../../../assets/media/thumbnails/html-css.png"
 ---

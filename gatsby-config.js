@@ -15,9 +15,9 @@ const siteUrl = isNetlifyProduction ? NETLIFY_SITE_URL : NETLIFY_DEPLOY_URL
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    siteTitle: `VisionMad | Grow your freelancing business with SEO and Content marketing.`,
+    siteTitle: `VisionMad | Learn full stack web development with our hands on curriculum.`,
     siteUrl,
-    siteDescription: `Grow your freelancing business with the power of SEO and Content marketing`,
+    siteDescription: `Learn full-stack web development at your own pace with our hands-on curriculum, step by step guide, and detailed screencasts.`,
     siteLanguage: `en`,
     author: `@codeSwastik`,
   },

@@ -11,10 +11,7 @@ import "../../assets/stylesheets/curriculum.css";
 export default function LearnWebDev({ data }) {
   return (
     <Layout>
-      <SEO
-        title="VisionMad | Full stack web development curriculum"
-        description="Learn full-stack web development at your own pace with our hands-on curriculum, step by step guide, and detailed screencasts."
-      />
+      <SEO />
       <div className="main-learn-page">
         <h1>Full stack web development curriculum.</h1>
         <p className="learn-page-text">

@@ -13,8 +13,8 @@ export default function BlogPage({ data }) {
   return (
     <Layout>
       <SEO
-        title="VisionMad | The best actionable freelancing blog to grow your business."
-        description="The best actionable freelancing tips and tricks blog to grow your business."
+        title="VisionMad | The best tips, tricks, and snippets on full stack web development."
+        description="Learn full stack web development with our best tips, tricks, and code snippets blog."
       />
       <div className="blogs-list-page">
         <section className="blogs-header">
