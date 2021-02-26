@@ -61,8 +61,50 @@ div {
 
 As per cascade background should be blue, but here specificity of ID took precedence regardless of its position in the cascade file because it has the highest specificity with point value **1-0-0**.
 
+## Combined selectors specificity.
+You can combine different selectors to achieve specific styling needs. First let's discuss what is combined selectors.
+
+### Combination of selectors.
+Say for example, you have a **```<section>```** element which contains multiple **```<p>```** elements. One of the ```<p>``` tag have a class name of ```profile_text```. With combined selectors you can target all ```<p>``` elements of that ```<section>``` or just the ```<p>``` element with the class name of ```profile_tag```.
+
+HTML
+```html
+<section class="profile_card">
+  <p>...</p>
+  <p>...</p>
+  <p class="profile_text">Web Developer</p>
+</section>
+```
+
+CSS
+```css
+.profile_card p {
+  color: gray;
+}
+
+.profile_card p.profile_text {
+  color: aqua;
+}
+```
+
+In the above CSS snippet there are two example of combined selctors.
+
+1. First one with a class (profile_card) and a type (p) selector. This will style all ```<p>``` element under profile_card ```<section>```.
+### Calculating combined specificity
+#### Example 1
+![combined selector specificity](./lesson-images/combined-selector-specificity-1.png)
+The resulting point value is **```0-1-1```**.
+
+2. Second one with two class selectors (profile_card, profile_text) and one type selector (p). This will style only ```<p>``` element with profile_text class name under ```<section>``` element.
+
+#### Example 2
+![combined selector specificity](./lesson-images/combined-selector-specificity-2.png)
+The resulting point value is **0-2-1**.
+
+That's how you combine selectors and calculate the specificity of combined selectors.
+
 <hr />
 
-Keep the specificity of different selectors in mind while writing CSS for your projects. On that note you came at the end of this lesson. In next lesson you will learn about combining selectors to achieve specific styling needs.
+Keep the specificity of different selectors in mind while writing CSS for your projects. On that note you came at the end of this lesson. In next lesson you will learn about being modular with multiple classes.
 
 Please share this course and content to support us.
