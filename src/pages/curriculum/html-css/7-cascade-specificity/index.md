@@ -6,7 +6,7 @@ description: "Learn to calculate selectors specificity and see how CSS decides w
 type: "lesson"
 ---
 
-This lesson will teach you exactly how CSS decides to render styles by using the cascade.
+This lesson will teach you exactly how CSS decides to render styles by using the cascade and specificity.
 
 ## The Cascade
 As CSS stands for **```cascading style sheet```**. Cascade is something arranged or occurring in a series or in a succession of stages. In CSS all styles are applied from top of the file to the bottom of the file.
@@ -65,7 +65,7 @@ As per cascade background should be blue, but here specificity of ID took preced
 You can combine different selectors to achieve specific styling needs. First let's discuss what is combined selectors.
 
 ### Combination of selectors.
-Say for example, you have a **```<section>```** element which contains multiple **```<p>```** elements. One of the ```<p>``` tag have a class name of ```profile_text```. With combined selectors you can target all ```<p>``` elements of that ```<section>``` or just the ```<p>``` element with the class name of ```profile_tag```.
+Say for example, you have a **```<section>```** element which contains multiple **```<p>```** elements. One of the ```<p>``` tag have a class name of ```profile_text```. With combined selectors you can target all ```<p>``` elements of that ```<section>``` or just the ```<p>``` element with the class name of ```profile_text```.
 
 HTML
 ```html

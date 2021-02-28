@@ -25,9 +25,7 @@ Dive deep into common HTML terms learned in the last module. Semantic HTML is so
 CSS stands for Cascading Style Sheets.  Within CSS, all styles cascade from the top of a style sheet to the bottom, allowing different styles to be added or overwritten as the style sheet progresses.
 
 - [Cascade Specificity](/curriculum/html-css/cascade-specificity)
-- [Being modular with multiple classes]()
-- [CSS colors property values]()
-- [CSS measurements and units]()
+- [CSS colors property and length units](/curriculum/html-css/css-colors-and-length-units)
 
 ## 4. The Box Model
 The Box Model is one of the most confusing concepts of HTML and CSS. But it won't be after this module. Box model is how elements are displayed on the web page, here you will also learn about inlie-block element.
