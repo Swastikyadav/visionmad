@@ -30,12 +30,11 @@ CSS stands for Cascading Style Sheets.  Within CSS, all styles cascade from the 
 ## 4. The Box Model
 The Box Model is one of the most confusing concepts of HTML and CSS. But it won't be after this module. Box model is how elements are displayed on the web page, here you will also learn about inlie-block element.
 
-- [CSS display property and inline-block value]()
-- [Understanding the Box Model]()
+- [CSS display property and inline-block value](/curriculum/html-css/display-property-and-inline-block-value)
+- [Understanding the Box Model](/curriculum/html-css/understanding-the-box-model)
 - [Width, Height and Inline Element]()
 - [Margin, Padding and Inline Element]()
-- [Borders and Border-Radius]()
-- [Box sizing - Content Box, Padding Box, and Border Box]()
+- [Border-Radius and Box sizing]()
 
 ## 5. CSS Floats - The Legacy
 CSS Floats were designed to wrap text around an image, but developers started using it for positioning elements. Nowadays no one uses floats for positioning. But we will cover the original intent of CSS Floats and how developers hacked it for positioning.
