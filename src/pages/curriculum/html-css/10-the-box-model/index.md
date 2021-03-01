@@ -151,6 +151,9 @@ Padding is used to add spaces within the element. It falls inside of the border.
 }
 ```
 
+**Visualizing the Box Model**
+![the box model](./lesson-images/the-box-model.png)
+
 ## Total width and height of the box.
 Total width of the box can be calculated using the following formula.
 
@@ -198,6 +201,99 @@ Total Width
 
 Total height
 > margin-top + height + margin-bottom
+
+## The Portfolio Project.
+Now let's apply our learnings to the portfolio project and make it look better. Here I have added the CSS and explained the changes in snippet itself via comments.
+
+Comments are the texts which gets ignored by the editor. It can be used to add some explanation or additional information. **But it should not be overused. Try to keep things simple.**
+
+In CSS comments are written between (```/*```) and (```*/```). And in HTML it is written between (<--) and (-->).
+
+Index.html
+```html
+<-- Comment: Added list of projects on the index page right before the footer -->
+
+<ul>
+  <li class="project-link">
+    <a href="https://swastikyadav.github.io/paradigm-shift/" target="_blank"
+      >Paradigm Shift - HTML CSS project</a
+    >
+  </li>
+  <li class="project-link">
+    <a
+      href="https://swastikyadav.github.io/threshold/index.html"
+      target="_blank"
+      >Threshold - HTML CSS project</a
+    >
+  </li>
+  <li class="project-link">
+    <a
+      href="https://swastikyadav.github.io/flexbox-project-2/index.html"
+      target="_blank"
+      >Prism - Flexbox Project</a
+    >
+  </li>
+</ul>
+
+<footer>...</footer>
+```
+
+styles.css
+```css
+header {
+  /* Added space within top and bottom of header */
+  padding: 10px 0;
+  /* Added border to the bottom of the header */
+  border-bottom: 1px solid black;
+}
+
+/* Combination of 3 type selectors */
+header nav a {
+  /* Set display to inline-block. So that top and bottom margin is set */
+  display: inline-block;
+  margin: 5px;
+}
+
+.profile_photo {
+  /* Added 20px margin to top and bottom of the image */
+  margin: 20px 0;
+  /* Made profile photo circular */
+  border-radius: 50%;
+}
+
+.intro-text {
+  margin: 10px 0 20px 0;
+  /* Added gap of 1.4 between two lines of text. More on this in typography lesson. */
+  line-height: 1.4;
+}
+
+footer {
+  margin-top: 30px;
+  padding: 10px 0;
+  border-top: 1px solid black;
+}
+
+.page-title {
+  font-size: 25px;
+  margin: 20px 0;
+}
+
+/* List of projects and blogs targeted with class name */
+.project-link,
+.blog-link {
+  margin: 10px 0;
+}
+
+```
+
+And, here is the result. It looks much better and clean than before.
+
+<iframe src="https://codesandbox.io/embed/visionmad-portfolio-project-3-2ugxj?fontsize=14&hidenavigation=1&theme=dark"
+  style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
+  title="VisionMad - Portfolio Project 3"
+  allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+  sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+></iframe>
 
 <hr />
 
