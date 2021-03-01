@@ -32,9 +32,6 @@ The Box Model is one of the most confusing concepts of HTML and CSS. But it won'
 
 - [CSS display property and inline-block value](/curriculum/html-css/display-property-and-inline-block-value)
 - [Understanding the Box Model](/curriculum/html-css/understanding-the-box-model)
-- [Width, Height and Inline Element]()
-- [Margin, Padding and Inline Element]()
-- [Border-Radius and Box sizing]()
 
 ## 5. CSS Floats - The Legacy
 CSS Floats were designed to wrap text around an image, but developers started using it for positioning elements. Nowadays no one uses floats for positioning. But we will cover the original intent of CSS Floats and how developers hacked it for positioning.

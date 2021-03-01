@@ -6,7 +6,7 @@ description: "Learn how elements are displayed on the web page using the CSS dis
 type: "lesson"
 ---
 
-The box model is one of the most confusing concepts of HTML and CSS. But it shouldn't be and it won't be after this lesson. Before diving into the box model, you need to understand the CSS display property and options for it's value.
+So far you learned about two types of HTML elements, block level and inline level elements. Now is the time to get familiar with the 3rd type called inline-block element. Before diving into the box model, you need to understand the CSS display property and options for it's value.
 
 ## CSS display options
 Display property determines exactly how an element is displayed on the web page. Most commin options for value of display property are **block**, **inline**, **inline-block**, and **none**.
