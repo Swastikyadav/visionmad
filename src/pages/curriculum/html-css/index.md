@@ -33,22 +33,14 @@ The Box Model is one of the most confusing concepts of HTML and CSS. But it won'
 - [CSS display property and inline-block value](/curriculum/html-css/display-property-and-inline-block-value)
 - [Understanding the Box Model](/curriculum/html-css/understanding-the-box-model)
 
-## 5. CSS Floats - The Legacy
-CSS Floats were designed to wrap text around an image, but developers started using it for positioning elements. Nowadays no one uses floats for positioning. But we will cover the original intent of CSS Floats and how developers hacked it for positioning.
-
-This module is optional. If you don't feel like learning legacy then skip this module.
-
-- [Wraping text around an image with Floats]()
-- [Positioning with Floats]()
-
-## 6. Crafting and Positioning modern Layouts
+## 5. Crafting and Positioning modern Layouts
 As discussed in 4th module every element in HTML is a box. Hence in this module you will learn to position these boxes in any manner you want. This super power gives you ability to position content and elements on a page in nearly any imaginable way.
 
-- [Static, Relative, Absolute, and Fixed positioning]()
+- [Static, Relative, Absolute, and Fixed positioning](/curriculum/html-css/css-positioning)
 - [Crafting layouts with CSS FlexBox]()
 - [Crafting layouts with CSS Grid]()
 
-## 7. Web Typography
+## 6. Web Typography
 Typography is the appearance of all the text on your web page. It is the artistic impression of how text looks, feels, and reads. In technical terms it is the size, color, weight, and style of the text.
 
 - [Font Properties]()
@@ -56,7 +48,7 @@ Typography is the appearance of all the text on your web page. It is the artisti
 - [Web safe fonts and using custom web fonts]()
 - [Citations and Quotes]()
 
-## 8. Backgrounds, List, and Media
+## 7. Backgrounds, List, and Media
 Apply solid colors, an image, a gradient, or a combination of these on backgrounds.
 Create and style lists in your web page. Learn to handle all kind of media files.
 
@@ -64,14 +56,14 @@ Create and style lists in your web page. Learn to handle all kind of media files
 - [Creating and styling lists]()
 - [Working with different types of media files]()
 
-## 9. Working with HTML Forms and HTML Tables
+## 8. Working with HTML Forms and HTML Tables
 Almost 95% of the internet consists of text and forms. Form allows you to acquire user's information and process requests.<br /><br />
 HTML Tables allows you to organize tabular data in a structured manner which is easier to read and digest for your users.
 
 - [Hanlde user input with Forms]()
 - [Organize infromation with Tables]()
 
-## 10. HTML / CSS final Projects
+## 9. HTML / CSS final Projects
 You have learned a lot in last 9 modules. Let's put it all together in practice and build 3 real world websites.
 
 - [Project 1]()
