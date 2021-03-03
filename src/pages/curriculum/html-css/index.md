@@ -37,7 +37,7 @@ The Box Model is one of the most confusing concepts of HTML and CSS. But it won'
 As discussed in 4th module every element in HTML is a box. Hence in this module you will learn to position these boxes in any manner you want. This super power gives you ability to position content and elements on a page in nearly any imaginable way.
 
 - [Static, Relative, Absolute, and Fixed positioning](/curriculum/html-css/css-positioning)
-- [Crafting layouts with CSS FlexBox]()
+- [Crafting layouts with CSS FlexBox](/curriculum/html-css/flexbox)
 - [Crafting layouts with CSS Grid]()
 
 ## 6. Web Typography
