@@ -200,6 +200,44 @@ The above snippet will only put box-2 at vertical bottom.
 
 ![flex align-self](./lesson-images/flex-align-self.png)
 
+## The Portfolio Project
+Let's use flexbox to align our Logo (name) and links in header to align in a row.
+
+1. Set display property of header to flex. So that it gets aligned in a row.
+2. Set justify-content of header to space-between. So that there is a decent space between them.
+3. Set align-items of header to center. So that they are centered vertically.
+
+HTML
+```html
+<header class="header">
+  <h1 class="logo">...</h1>
+  <nav>
+    .
+    .
+    .
+  </nav>
+</header>
+```
+
+CSS
+```css
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+```
+
+Here is the result
+<iframe src="https://codesandbox.io/embed/visionmad-portfolio-project-4-hk28x?fontsize=14&hidenavigation=1&theme=dark"
+  style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
+  title="VisionMad - Portfolio Project 4"
+  allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+  sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+></iframe>
+
+With that we came at the end of this lesson. You will the real power of flexbox while building the ultimate real world projects in the last module.
+
 <hr />
 
 This might have been the most overwhelming lesson so far. And as I always say take your time to digest these concepts, there is no rush.

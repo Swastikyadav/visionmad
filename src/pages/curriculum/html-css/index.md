@@ -38,7 +38,6 @@ As discussed in 4th module every element in HTML is a box. Hence in this module 
 
 - [Static, Relative, Absolute, and Fixed positioning](/curriculum/html-css/css-positioning)
 - [Crafting layouts with CSS FlexBox](/curriculum/html-css/flexbox)
-- [Crafting layouts with CSS Grid]()
 
 ## 6. Web Typography
 Typography is the appearance of all the text on your web page. It is the artistic impression of how text looks, feels, and reads. In technical terms it is the size, color, weight, and style of the text.
