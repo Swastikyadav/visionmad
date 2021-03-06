@@ -47,27 +47,24 @@ Typography is the appearance of all the text on your web page. It is the artisti
 - [Web safe fonts and using custom web fonts]()
 - [Citations and Quotes]()
 
-## 7. Backgrounds, List, and Media
+## 7. Backgrounds and Lists
 Apply solid colors, an image, a gradient, or a combination of these on backgrounds.
-Create and style lists in your web page. Learn to handle all kind of media files.
+Create and style lists in your web page.
 
 - [Setting Backgrounds and Gradients](/curriculum/html-css/background-and-gradients)
-- [Creating and styling lists]()
-- [Working with different types of media files]()
+- [Creating and styling lists](/curriculum/html-css/creating-and-styling-lists)
 
 ## 8. Working with HTML Forms and HTML Tables
 Almost 95% of the internet consists of text and forms. Form allows you to acquire user's information and process requests.<br /><br />
 HTML Tables allows you to organize tabular data in a structured manner which is easier to read and digest for your users.
 
-- [Hanlde user input with Forms]()
+- [Handle user input with Forms]()
 - [Organize infromation with Tables]()
 
 ## 9. HTML / CSS final Projects
 You have learned a lot in last 9 modules. Let's put it all together in practice and build 3 real world websites.
 
-- [Project 1]()
-- [Project 2]()
-- [Project 3]()
+### **Coming Soon!**
 
 <hr />
 
