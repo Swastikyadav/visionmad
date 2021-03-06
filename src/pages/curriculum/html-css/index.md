@@ -51,7 +51,7 @@ Typography is the appearance of all the text on your web page. It is the artisti
 Apply solid colors, an image, a gradient, or a combination of these on backgrounds.
 Create and style lists in your web page. Learn to handle all kind of media files.
 
-- [Setting Backgrounds and Gradients]()
+- [Setting Backgrounds and Gradients](/curriculum/html-css/background-and-gradients)
 - [Creating and styling lists]()
 - [Working with different types of media files]()
 
