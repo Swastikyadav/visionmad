@@ -58,8 +58,8 @@ Create and style lists in your web page.
 Almost 95% of the internet consists of text and forms. Form allows you to acquire user's information and process requests.<br /><br />
 HTML Tables allows you to organize tabular data in a structured manner which is easier to read and digest for your users.
 
-- [Handle user input with Forms]()
-- [Organize infromation with Tables]()
+- [Handle user input with Forms](/curriculum/html-css/working-with-html-forms)
+- [Organize infromation with Tables](/curriculum/html-css/working-with-html-tables)
 
 ## 9. HTML / CSS final Projects
 You have learned a lot in last 9 modules. Let's put it all together in practice and build 3 real world websites.
