@@ -129,7 +129,7 @@ RESULT
     <input type="checkbox" name="accountType" value="student" /> Student
     <input type="checkbox" name="accountType" value="general" /> General
   </form>
-</div>
+</div><br />
 
 ### **DropDowns**
 Dropdowns are good for selecting something from a long list of options. To create a dropdown **```<select>```** element is used with **```<option>```** element.
@@ -153,7 +153,7 @@ RESULT
     <option value="admin">Admin</option>
     <option value="editor">Editor</option>
   </select>
-</div>
+</div><br />
 
 ## More Input Types and Attributes
 There are few more input types and attributes to know about.
