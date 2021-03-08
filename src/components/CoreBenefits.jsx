@@ -31,7 +31,7 @@ function CoreBenefits() {
       <section className="benefit-section bs-3">
         <aside className="text-info">
           <h2>Code with <span className="underline">product mindset.</span></h2>
-          <p>Build products, not just another dummy project. At the end of every series, we create something useful for the world.</p>
+          <p>Learn to productize your knowledge. Build products, not just another dummy project.</p>
         </aside>
         <aside className="illustrations">
           <img className="benefit-img" src={ProductMindset} alt="one-stop-guide-for-web-development"/>
@@ -42,8 +42,8 @@ function CoreBenefits() {
           <img className="benefit-img" src={PaymentCard} alt="one-stop-guide-for-web-development"/>
         </aside>
         <aside className="text-info">
-          <h2><span className="underline">No one should pay</span> to learn web-development.</h2>
-          <p>If utilized properly this platform can replace most of the paid courses out there.</p>
+          <h2><span className="underline">Start earning</span> with your web-dev skills.</h2>
+          <p>Even just with HTML and CSS you can start generating a revenue for yourself.</p>
         </aside>
       </section>
     </>
