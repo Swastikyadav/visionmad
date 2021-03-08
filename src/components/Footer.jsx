@@ -8,8 +8,8 @@ function Footer() {
     <footer className="footer">
       <h1><span className="underline">Vision</span>Mad</h1>
       <p>
-        Learn web-development through weekly news letter content.
-        Subscribe to be the first to know when we launch.
+        Learn web-development and build digital products.
+        Subscribe and learn to code with product mindset.
       </p>
       <NewsLetterForm />
     </footer>

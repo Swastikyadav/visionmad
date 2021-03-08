@@ -13,8 +13,8 @@ function LandingPage() {
             <h1><span className="underline">Vision</span>Mad</h1>
             <p>Vision to <strong className="underline">M</strong>ake <strong className="underline">A</strong> <strong className="underline">D</strong>ifference</p>
             <p>
-              Learn web-development through weekly news letter content.
-              Subscribe to be the first to know when we launch.
+              Learn web-development and build digital products.
+              Subscribe and learn to code with product mindset.
             </p>
             <NewsLetterForm />
           </div>

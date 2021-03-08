@@ -54,7 +54,7 @@ function NewsLetterForm() {
           value={email}
           required
         />
-        <button className="sub-button" type="submit">Notify Me</button>
+        <button className="sub-button" type="submit">Join Now</button>
       </form>
     </>
   );
