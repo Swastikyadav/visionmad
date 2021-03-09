@@ -20,7 +20,7 @@ function LandingPage() {
           </div>
         </aside>
         <aside className="hero-media-aside">
-          <iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/Hys4Y-IHSt8" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen title="test-youtube-embed"></iframe>
+          <iframe id="vp1o3QQS" title="Video Player" width="640" height="360" frameborder="0" src="https://s3.amazonaws.com/embed.animoto.com/play.html?w=swf/production/vp1&e=1615282908&f=o3QQStpkY2N090WJ817eUQ&d=0&m=p&r=360p+480p+720p&volume=100&start_res=720p&i=m&asset_domain=s3-p.animoto.com&animoto_domain=animoto.com&options=" allowfullscreen></iframe>
         </aside>
       </div>
       <div className="core-benefits">
