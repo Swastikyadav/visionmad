@@ -32,13 +32,13 @@ A website is a collection of different webpages under the same domain. For examp
 ## Types of web development.
 There are 3 types of web development. Frontend development, Backend development, and Full-stack web development. Let's understand the role of each type of web development.
 
-### What is frontend development?
+### **What is frontend development?**
 
 ![Frontend development infographic](./lesson-images/frontend-infograph.png)
 
 Frontend web development is what the final user sees. It is about the UI / UX of a webpage. Frontend developers are responsible for how a webpage looks and feel. They request CRUD operations and show it in an easy-to-understand format. The main job of the frontend development is to handle forms and inputs.
 
-#### Technologies used for front-end web development.
+#### **Technologies used for front-end web development**.
 - HTML
 - CSS
 - JavaScript
@@ -48,13 +48,13 @@ Frontend web development is what the final user sees. It is about the UI / UX of
 
 At this point you should not be concerned about the above technologies other than HTML and CSS.
 
-### What is backend development?
+### **What is backend development?**
 
 ![Backend development infographic](./lesson-images/backend-infograph.png)
 
 Backend development is all about building APIs and managing CRUD (Create, Read, Update, Delete) operations. Backend development is responsible for creating, reading, updating, and deleting the records which will be consumed or used by the frontend.
 
-#### Technologies used for backend web development.
+#### **Technologies used for backend web development**.
 - NodeJS
 - Ruby
 - PHP
@@ -62,7 +62,7 @@ Backend development is all about building APIs and managing CRUD (Create, Read, 
 
 These are just a few technologies to name. In our full-stack curriculum, we will cover NodeJS instead of old technologies like PHP, Python, or Ruby.
 
-### What is full-stack web development?
+### **What is full-stack web development?**
 
 ![Full-Stack development](./lesson-images/full-stack-development.png)
 
@@ -70,7 +70,7 @@ Frontend development + Backend development = FullSstack development.
 
 A full-stack developer is responsible to build the frontend, backend and make them talk to each other through APIs.
 
-#### Technologies used for full-stack web development.
+#### **Technologies used for full-stack web development**.
 - MERN stack
 - MEAN stack
 - MEVN stack
@@ -80,7 +80,7 @@ Don't worry about any of these stacks at this point. They are mentioned just for
 ## Environment setup for web development.
 As web developers, we need to set up our environment before we can start building webpages. We need a code editor to write code, and a web browser to check our work.
 
-### Code Editor
+### **Code Editor**
 Code editors are used for writing and structuring our code. Here are a few popular code editors.
 
 - [Brackets](http://brackets.io/)
@@ -90,7 +90,7 @@ Code editors are used for writing and structuring our code. Here are a few popul
 
 I recommend you to use VS Code as it is used by the majority of professional developers. For your system-specific installation guide visit the official website of these code editors.
 
-### Web Browser
+### **Web Browser**
 A web browser is simply an application to access the world wide web (The Internet). You must be already using a browser to read this lesson.
 
 The two most widely used web browsers by developers are:
