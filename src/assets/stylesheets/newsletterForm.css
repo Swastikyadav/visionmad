@@ -1,0 +1,19 @@
+.nl-input {
+  width: 40%;
+  height: 30px;
+  padding: 17px;
+  outline: none;
+  font-size: 15px;
+}
+
+.nl-sub-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: 600;
+  background: #10347C;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+}

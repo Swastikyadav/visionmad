@@ -1,0 +1,52 @@
+.newsletter-page {
+  margin: 100px 0;
+}
+
+.newsletter-page form {
+  text-align: center;
+}
+
+.newsletter-page input {
+  width: 40%;
+  height: 30px;
+  padding: 17px;
+  outline: none;
+  font-size: 15px;
+}
+
+.newsletter-page .sub-button {
+  margin-top: 10px;
+  padding: 8px 20px;
+  font-size: 15px;
+  font-weight: 600;
+  background: #10347C;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.newsletter-page {
+  text-align: center;
+}
+
+.newsletter-page h1 {
+  font-size: 32px;
+  text-align: center;
+}
+
+.newsletter-page p {
+  font-size: 18px;
+  margin: 30px auto;
+  width: 60%;
+}
+
+@media all and (max-width: 768px) {
+  .newsletter-page input {
+    width: 90%;
+  }
+
+  .newsletter-page p {
+    width: 80%;
+  }
+}

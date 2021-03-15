@@ -32,6 +32,9 @@ function Header() {
             <Breadcrumb.Item>
               <Link className="link" activeClassName="active-link" partiallyActive={true} to="/blog">Blog</Link>
             </Breadcrumb.Item>
+            <Breadcrumb.Item>
+              <Link className="link" activeClassName="active-link" partiallyActive={true} to="/newsletter">NewsLetter</Link>
+            </Breadcrumb.Item>
           </Breadcrumb>
         </nav>
         <span className="ham-burger">
@@ -53,6 +56,9 @@ function Header() {
         </Link><br/><br/>
         <Link to="/blog" activeClassName="active-link" partiallyActive={true} onClick={handleCancel}>
           Blog
+        </Link><br/><br/>
+        <Link to="/newsletter" activeClassName="active-link" partiallyActive={true} onClick={handleCancel}>
+          NewsLetter
         </Link>
       </Modal>
     </>
