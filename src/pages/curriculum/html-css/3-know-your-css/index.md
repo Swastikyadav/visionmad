@@ -20,11 +20,11 @@ There are 3 terminologies which are the building blocks of CSS. When you need to
 2. Specify which property of that element you want to change.
 3. Specify the value of that property.
 
-### Selectors
+### **Selectors**
 Selectors specify which HTML element or elements need to be styled. You may want to increase the font size of all paragraph elements or you may just want to change the color of a specific paragraph element. Selectors help you select the element you want to target.
 
 #### Most common types of selectors.
-1. ##### Type Selector
+1. ##### **Type Selector**
 With type selectors you can directly target the elements with their name.
 
 ```css
@@ -35,7 +35,7 @@ p {
 }
 ```
 
-2. ##### Class Selector
+2. ##### **Class Selector**
 With class selectors you can target elements by their class attribute. Use class selectors when you need to apply same stylings to multiple elements. In CSS file we denote class with a (.) followed by the class attribute name.
 
 HTML
@@ -53,7 +53,7 @@ CSS
 }
 ```
 
-3. ##### ID Selectors
+3. ##### **ID Selectors**
 With ID selectors you can target an element by it's ID attribute. Their can not be multiple ID attribute with the same name. Use ID selector to apply unique styling to an element. In CSS file ID attribute is denoted by (#) followed by the ID name.
 
 HTML
@@ -68,12 +68,12 @@ CSS
 }
 ```
 
-### Properties
+### **Properties**
 This determines what property of the selected element needs to be changed. You may want to change the color, font-size, background, height, or weight of the paragraph element.
 
 Color, font-size, background, weight, and height are just a few properties to name.
 
-### Values
+### **Values**
 This defines the value you want to set for the property of an element. For the color property, you can set the value to red, green, blue, or any other color.
 
 Say you want to change the color of a paragraph element to red. Here paragraph element is the selector, color is the property, and red is the value of that property.
