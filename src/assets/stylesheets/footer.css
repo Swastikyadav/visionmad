@@ -3,7 +3,6 @@
   position: absolute;
   left: 0;
   width: 100%;
-  height: 50vh;
   padding: 20px 3%;
 }
 
@@ -25,6 +24,43 @@
   color: #fff;
   cursor: pointer;
   display: block;
+}
+
+.social-icon {
+  font-size: 40px;
+  margin: 30px 10px;
+}
+
+footer .tw-icon {
+  color: #00ACEE;
+}
+
+footer .tw-icon:hover {
+  color: #00ACEE;
+}
+
+footer .insta-icon {
+  color: #C13584;
+}
+
+footer .insta-icon:hover {
+  color: #C13584;
+}
+
+footer .fb-icon {
+  color: #3B5998;
+}
+
+footer .fb-icon:hover {
+  color: #3B5998;
+}
+
+footer .yt-icon {
+  color: #FF0000;
+}
+
+footer .yt-icon:hover {
+  color: #FF0000;
 }
 
 @media all and (max-width: 768px) {
