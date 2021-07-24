@@ -1,0 +1,16 @@
+.blog-post-container {
+  margin: 100px auto 50px;
+  width: 100%;
+  max-width: 700px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+}
+
+.blog-post {
+  width: 100%;
+}
+
+h1, h2 {
+  font-weight: 600;
+}
