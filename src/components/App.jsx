@@ -1,25 +1,10 @@
 import React from "react";
 
+import Hero from "./Hero";
+
 function App() {
   return (
-      <>
-        <div>Hello World!</div>
-        <div>Hello World!</div>
-        <div>Hello World!</div>
-        <div>Hello World!</div>
-        <div>Hello World!</div>
-        <div>Hello World!</div>
-        <div>Hello World!</div>
-        <div>Hello World!</div>
-        <div>Hello World!</div>
-        <div>Hello World!</div>
-        <div>Hello World!</div>
-        <div>Hello World!</div>
-        <div>Hello World!</div>
-        <div>Hello World!</div>
-        <div>Hello World!</div>
-        <div>Hello World!</div>
-      </>
+      <Hero />
   );
 }
 
