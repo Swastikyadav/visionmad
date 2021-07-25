@@ -1,12 +1,14 @@
 import React from "react";
 
 import Header from "./Header";
+import Footer from "./Footer";
 
 function Layout({ children }) {
   return (
-    <div style={{marginTop: "60px"}}>
+    <div style={{marginTop: "70px"}}>
       <Header />
       {children}
+      <Footer />
     </div>
   );
 }
