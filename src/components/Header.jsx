@@ -20,9 +20,7 @@ function Header() {
         <ul>
           <li><a className="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a className="nav-link scrollto o" href="#portfolio">Portfolio</a></li>
-          <li><a className="nav-link scrollto" href="#services">Services</a></li>
           <li><a className="nav-link scrollto" href="#pricing">Pricing</a></li>
-          <li><a className="nav-link scrollto" href="#about">About</a></li>
         </ul>
         <i className="bi bi-list mobile-nav-toggle" onClick={handleMenuClick}></i>
       </nav>

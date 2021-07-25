@@ -24,8 +24,8 @@ function Footer() {
               <h4>Useful Links</h4>
               <ul>
                 <li><i className="bx bx-chevron-right"></i> <Link to="/">Home</Link></li>
-                <li><i className="bx bx-chevron-right"></i> <Link to="#">About us</Link></li>
-                <li><i className="bx bx-chevron-right"></i> <Link to="#">Services</Link></li>
+                <li><i className="bx bx-chevron-right"></i> <Link to="#portfolio">Portfolio</Link></li>
+                <li><i className="bx bx-chevron-right"></i> <Link to="#pricing">Pricing</Link></li>
                 <li><i className="bx bx-chevron-right"></i> <Link to="#">Terms of service</Link></li>
                 <li><i className="bx bx-chevron-right"></i> <Link to="#">Privacy policy</Link></li>
               </ul>
