@@ -16,37 +16,37 @@ const portfolioProjectsArray = [
   {
     client: "Flex Start",
     image: PortfolioImg2,
-    description: "",
-    url: "",
-    date: "" 
+    description: "This is a demo text for the description of the project. Here we will share some details about this project, and kind of work we did in this project.",
+    url: "https://flexstart.com",
+    date: "04 July, 2021" 
   },
   {
     client: "Mentor",
     image: PortfolioImg3,
-    description: "",
-    url: "",
-    date: "" 
+    description: "This is a demo text for the description of the project. Here we will share some details about this project, and kind of work we did in this project.",
+    url: "https://mentor.com",
+    date: "08 July, 2021" 
   },
   {
     client: "Selecao",
     image: PortfolioImg4,
-    description: "",
-    url: "",
-    date: "" 
+    description: "This is a demo text for the description of the project. Here we will share some details about this project, and kind of work we did in this project.",
+    url: "https://selecao.com",
+    date: "12 July, 2021" 
   },
   {
     client: "NineStars",
     image: PortfolioImg5,
-    description: "",
-    url: "",
-    date: "" 
+    description: "This is a demo text for the description of the project. Here we will share some details about this project, and kind of work we did in this project.",
+    url: "https://ninestars.com",
+    date: "16 July, 2021" 
   },
   {
     client: "Bocor",
     image: PortfolioImg6,
-    description: "",
-    url: "",
-    date: "" 
+    description: "This is a demo text for the description of the project. Here we will share some details about this project, and kind of work we did in this project.",
+    url: "https://bocor.com",
+    date: "24 July, 2021" 
   }
 ];
 
