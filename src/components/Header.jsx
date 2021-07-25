@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useRef } from "react";
 
 function Header() {
+  const navBarRef = useRef(null);
+
   const handleMenuClick = (event) => {
-    document.querySelector("#navbar").classList.toggle('navbar-mobile');
+    navBarRef.current.classList.toggle('navbar-mobile');
     event.target.classList.toggle('bi-x')
   }
 
@@ -13,7 +15,7 @@ function Header() {
       <h1 className="logo"><a href="/">Vision Mad</a></h1>
       {/* <a href="index.html" className="logo"><img src="assets/img/apple-touch-icon.png" alt="" className="img-fluid"></a> */}
 
-      <nav id="navbar" className="navbar">
+      <nav id="navbar" ref={navBarRef} className="navbar">
         <ul>
           <li><a className="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a className="nav-link scrollto o" href="#portfolio">Portfolio</a></li>
