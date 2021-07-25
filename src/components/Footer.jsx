@@ -9,7 +9,7 @@ function Footer() {
           <div className="row">
 
             <div className="col-lg-3 col-md-6 footer-contact">
-              <h3>OnePage</h3>
+              <h3>VisionMad</h3>
               <p>
                 Lakhpat Colony, School Road <br />
                 New Delhi, ND 110044<br />
