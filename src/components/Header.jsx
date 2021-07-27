@@ -22,7 +22,7 @@ function Header() {
           <li><a className="nav-link scrollto o" href="#portfolio">Portfolio</a></li>
           <li><a className="nav-link scrollto" href="#pricing">Pricing</a></li>
         </ul>
-        <i className="bi bi-list mobile-nav-toggle" onClick={handleMenuClick}></i>
+        <i className="bi bi-list mobile-nav-toggle" onClick={handleMenuClick} role="none"></i>
       </nav>
     </div>
   </header>

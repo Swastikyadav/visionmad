@@ -23,7 +23,7 @@ function Pricing() {
                 <li>Copywriting to support your landing page</li>
               </ul>
               <div className="btn-wrap">
-                <a href="#" className="btn-buy">Get In Touch Now</a>
+                <a href="https://wa.me/9971780581" target="_blank" rel="noreferrer" className="btn-buy">Get In Touch Now</a>
               </div>
             </div>
           </div>
@@ -40,7 +40,7 @@ function Pricing() {
                 <li>Search Console & Google Analytics setup</li>
               </ul>
               <div className="btn-wrap">
-                <a href="#" className="btn-buy">Get In Touch Now</a>
+                <a href="https://wa.me/9971780581" target="_blank" rel="noreferrer" className="btn-buy">Get In Touch Now</a>
               </div>
             </div>
           </div>

@@ -17,7 +17,7 @@ function ProjectDetail({ location }) {
     setProject(projectObj);
 
     contactWidget(document, 'script', 'rasayel-js');
-  }, []);
+  }, [location.search]);
 
   return (
     <>
