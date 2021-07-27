@@ -16,7 +16,7 @@ function Footer() {
                 The Republic of India <br /><br />
                 <strong>Phone 1:</strong> +91 9971780581<br />
                 <strong>Phone 2:</strong> +91 8414894154<br />
-                <strong>Email:</strong> info@example.com<br />
+                <strong>Email:</strong> visionmadworks@gmail.com<br />
               </p>
             </div>
 

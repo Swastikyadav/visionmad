@@ -4,6 +4,8 @@ import queryString from "query-string";
 import PortfolioArr from "../data/portfolio-data";
 import Layout from "../components/Layout";
 
+import { contactWidget } from "../utils/widget";
+
 function ProjectDetail({ location }) {
   const [project, setProject] = useState(null);
 
@@ -13,6 +15,8 @@ function ProjectDetail({ location }) {
     });
 
     setProject(projectObj);
+
+    contactWidget(document, 'script', 'rasayel-js');
   }, []);
 
   return (
